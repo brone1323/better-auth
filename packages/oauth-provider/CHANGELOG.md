@@ -1,5 +1,13 @@
 # @better-auth/oauth-provider
 
+## 1.7.0-beta.4
+
+### Patch Changes
+
+- Updated dependencies []:
+  - better-auth@1.7.0-beta.4
+  - @better-auth/core@1.7.0-beta.4
+
 ## 1.7.0-beta.3
 
 ### Patch Changes

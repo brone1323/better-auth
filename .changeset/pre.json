@@ -53,6 +53,7 @@
     "pr-9084",
     "private-key-jwt",
     "quiet-donuts-tan",
+    "restore-stripe-cancel-event-required",
     "saml-response-validation-hardening",
     "sso-saml-hardening",
     "sso-saml-model-split",
