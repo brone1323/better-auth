@@ -1,5 +1,24 @@
 # @better-auth/sso
 
+## 1.6.11
+
+### Patch Changes
+
+- [#9220](https://github.com/better-auth/better-auth/pull/9220) [`86765f1`](https://github.com/better-auth/better-auth/commit/86765f1597378f5c3deed1b80ca91faac0a6bf00) Thanks [@stewartjarod](https://github.com/stewartjarod)! - fix(sso): require org admin role to register SSO providers
+
+  `POST /sso/register` previously allowed any organization member to register an
+  SSO provider for the organization when `organizationId` was supplied, only
+  checking membership and not role. This brings it in line with the other
+  provider endpoints (`get`/`update`/`delete`), which go through
+  `checkProviderAccess` → `isOrgAdmin` and restrict access to `owner` or `admin`
+  roles.
+
+  Closes [#9133](https://github.com/better-auth/better-auth/issues/9133).
+
+- Updated dependencies [[`ee93485`](https://github.com/better-auth/better-auth/commit/ee934854999390ee5ca73592fe205a470a810b83), [`142b86c`](https://github.com/better-auth/better-auth/commit/142b86c43d2e6b258236a298a31237e97f87d64d), [`e21d744`](https://github.com/better-auth/better-auth/commit/e21d744987476c20a934c79ef226fe6a5f468e22)]:
+  - better-auth@1.6.11
+  - @better-auth/core@1.6.11
+
 ## 1.6.10
 
 ### Patch Changes

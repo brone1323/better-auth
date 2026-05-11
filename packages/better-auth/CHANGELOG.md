@@ -1,5 +1,22 @@
 # better-auth
 
+## 1.6.11
+
+### Patch Changes
+
+- [#8948](https://github.com/better-auth/better-auth/pull/8948) [`ee93485`](https://github.com/better-auth/better-auth/commit/ee934854999390ee5ca73592fe205a470a810b83) Thanks [@ping-maxwell](https://github.com/ping-maxwell)! - fix: add error code to change-email-disabled
+
+- [#9548](https://github.com/better-auth/better-auth/pull/9548) [`142b86c`](https://github.com/better-auth/better-auth/commit/142b86c43d2e6b258236a298a31237e97f87d64d) Thanks [@dipan-ck](https://github.com/dipan-ck)! - anonymous plugin now correctly calls onLinkAccount when email verification triggers auto sign-in
+
+- Updated dependencies [[`e21d744`](https://github.com/better-auth/better-auth/commit/e21d744987476c20a934c79ef226fe6a5f468e22)]:
+  - @better-auth/core@1.6.11
+  - @better-auth/drizzle-adapter@1.6.11
+  - @better-auth/kysely-adapter@1.6.11
+  - @better-auth/memory-adapter@1.6.11
+  - @better-auth/mongo-adapter@1.6.11
+  - @better-auth/prisma-adapter@1.6.11
+  - @better-auth/telemetry@1.6.11
+
 ## 1.6.10
 
 ### Patch Changes
